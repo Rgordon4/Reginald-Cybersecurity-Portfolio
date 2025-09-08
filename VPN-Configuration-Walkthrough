@@ -1,23 +1,67 @@
 # 🌐 VPN Configuration Walkthrough
 
-This project demonstrates how to configure a secure VPN using pfSense and OpenVPN. It includes firewall setup, certificate-based authentication, and traffic analysis using Wireshark.
+## 📌 Overview
+This project demonstrates how to configure a secure Virtual Private Network (VPN) using **pfSense** and **OpenVPN**. It covers firewall rule setup, certificate-based authentication, and encrypted traffic validation using **Wireshark**. The goal is to simulate a secure remote access environment suitable for enterprise use.
 
-## Tools Used
-- pfSense
-- OpenVPN
-- Wireshark
-- Kali Linux (optional)
+## 🧰 Tools & Technologies
+- **pfSense** (Firewall & VPN Gateway)
+- **OpenVPN** (VPN Protocol)
+- **Wireshark** (Packet Analysis)
+- **Kali Linux** (Optional for testing)
+- **VirtualBox / VMware** (Lab virtualization)
 
-## Key Concepts
+## 🛠️ Lab Setup
+1. **Deploy pfSense** on a virtual machine with WAN/LAN interfaces.
+2. **Configure OpenVPN Server**:
+   - Generate CA and server certificates
+   - Set up user authentication
+   - Export client configuration
+3. **Firewall Rules**:
+   - Allow UDP 1194 on WAN
+   - Create NAT and LAN pass rules
+4. **Client Setup**:
+   - Import `.ovpn` config into OpenVPN client
+   - Connect and verify tunnel status
+
+## 🔍 Traffic Validation
+Used **Wireshark** to inspect VPN traffic:
+- Confirmed encrypted packets over UDP
+- Verified IP masking and DNS leak protection
+- Ensured handshake and TLS negotiation were successful
+
+## 📸 Screenshots
+- pfSense dashboard
+- OpenVPN server config
+- Firewall rule table
+- Wireshark packet capture
+
+*(Screenshots will be added in `/screenshots` folder)*
+
+## 🧠 Key Concepts Demonstrated
 - VPN tunneling and encryption
-- Firewall rule configuration
 - Certificate-based authentication
-- Packet inspection and validation
+- Firewall rule logic and NAT
+- Packet inspection for security validation
 
-## Screenshots
-*Coming soon*
+## 🧪 Challenges & Solutions
+| Issue | Resolution |
+|------|------------|
+| Tunnel failed to establish | Corrected firewall rule to allow UDP 1194 |
+| DNS leaks detected | Enabled DNS override in OpenVPN settings |
+| Certificate mismatch | Regenerated client cert with correct CN |
 
-## Lessons Learned
-- How to troubleshoot tunnel failures
-- Importance of secure key exchange
-- How to verify encrypted traffic using Wireshark
+## 📁 Files Included
+- `server.conf`: OpenVPN server config
+- `client.ovpn`: Client profile
+- `firewall-rules.txt`: pfSense rule export
+- `wireshark-capture.pcap`: Sample packet capture
+
+## 📚 References
+- [pfSense Documentation](https://docs.netgate.com)
+- [OpenVPN Setup Guide](https://openvpn.net)
+- [Wireshark VPN Analysis](https://wiki.wireshark.org/VPN)
+
+## 👤 Author
+**Reginald**  
+Cybersecurity CSC Student | Forensics & Network Security Enthusiast  
+Focused on SOC readiness, consulting, and ethical hacking  
