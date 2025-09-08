@@ -1,0 +1,29 @@
+# 🛡️ Linux Hardening Walkthrough
+
+## 📌 Overview
+This walkthrough demonstrates how to harden a Debian-based Linux system using industry best practices and CIS benchmarks. It covers system updates, user account security, service minimization, firewall configuration, and audit logging. The goal is to reduce the attack surface and prepare the system for production or forensic analysis.
+
+## 🧰 Tools & Environment
+- **Debian 11** (or Ubuntu Server)
+- **OpenSCAP** (optional for compliance scanning)
+- **UFW** (Uncomplicated Firewall)
+- **Auditd** (Audit daemon)
+- **Lynis** (Security auditing tool)
+- **VirtualBox / VMware** (Lab virtualization)
+
+## 🛠️ Hardening Steps
+
+### 1. 🔄 System Updates
+```bash
+sudo apt update && sudo apt upgrade -y
+sudo apt install unattended-upgrades
+### 2. User & Authentication
+sudo passwd -l root
+sudo adduser analyst
+sudo usermod -aG sudo analyst
+### 3. Firewall Configuration
+sudo apt install ufw
+sudo ufw default deny incoming
+sudo ufw default allow outgoing
+sudo ufw allow ssh
+sudo ufw enable
