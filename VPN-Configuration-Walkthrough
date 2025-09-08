@@ -1,0 +1,23 @@
+# 🌐 VPN Configuration Walkthrough
+
+This project demonstrates how to configure a secure VPN using pfSense and OpenVPN. It includes firewall setup, certificate-based authentication, and traffic analysis using Wireshark.
+
+## Tools Used
+- pfSense
+- OpenVPN
+- Wireshark
+- Kali Linux (optional)
+
+## Key Concepts
+- VPN tunneling and encryption
+- Firewall rule configuration
+- Certificate-based authentication
+- Packet inspection and validation
+
+## Screenshots
+*Coming soon*
+
+## Lessons Learned
+- How to troubleshoot tunnel failures
+- Importance of secure key exchange
+- How to verify encrypted traffic using Wireshark
