@@ -14,11 +14,11 @@ This section documents the tools used to assess network security posture, includ
 
 ## 📸 Lab Screenshots & Results
 -Topology
-https://github.com/Rgordon4/Reginald-Cybersecurity-Portfolio/blob/main/Screenshot%202025-09-14%20at%2011-38-19%20Lab%20-%20Jones%20%26%20Bartlett.png
-https://github.com/Rgordon4/Reginald-Cybersecurity-Portfolio/blob/main/Assessing%20the%20Network%20with%20Common%20Security%20Tools%20(3e)-AttackLinux01-1757866831078.jpeg?raw=true
-https://github.com/Rgordon4/Reginald-Cybersecurity-Portfolio/blob/main/Assessing%20the%20Network%20with%20Common%20Security%20Tools%20(3e)-AttackLinux01-1757866868963.jpeg?raw=true
-https://github.com/Rgordon4/Reginald-Cybersecurity-Portfolio/blob/main/Assessing%20the%20Network%20with%20Common%20Security%20Tools%20(3e)-AttackLinux01-1757869200788.jpeg?raw=true
-https://github.com/Rgordon4/Reginald-Cybersecurity-Portfolio/blob/main/Assessing%20the%20Network%20with%20Common%20Security%20Tools%20(3e)-AttackLinux01-1757869217313.jpeg?raw=true
+-https://github.com/Rgordon4/Reginald-Cybersecurity-Portfolio/blob/main/Screenshot%202025-09-14%20at%2011-38-19%20Lab%20-%20Jones%20%26%20Bartlett.png
+-https://github.com/Rgordon4/Reginald-Cybersecurity-Portfolio/blob/main/Assessing%20the%20Network%20with%20Common%20Security%20Tools%20(3e)-AttackLinux01-1757866831078.jpeg?raw=true
+-https://github.com/Rgordon4/Reginald-Cybersecurity-Portfolio/blob/main/Assessing%20the%20Network%20with%20Common%20Security%20Tools%20(3e)-AttackLinux01-1757866868963.jpeg?raw=true
+-https://github.com/Rgordon4/Reginald-Cybersecurity-Portfolio/blob/main/Assessing%20the%20Network%20with%20Common%20Security%20Tools%20(3e)-AttackLinux01-1757869200788.jpeg?raw=true
+-https://github.com/Rgordon4/Reginald-Cybersecurity-Portfolio/blob/main/Assessing%20the%20Network%20with%20Common%20Security%20Tools%20(3e)-AttackLinux01-1757869217313.jpeg?raw=true
 ### Nmap Scan Example
 Used to identify open ports and services on target host.
 
