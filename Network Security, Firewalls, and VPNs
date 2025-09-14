@@ -1,1 +1,58 @@
-Assessing the Network with Common Security Tools
+# Assessing the Network – Common Security Tools
+
+## 🔍 Overview
+This section documents the tools used to assess network security posture, including scanning, enumeration, and vulnerability detection
+
+## 🔍 Overview
+This section documents the tools used to assess network security posture, including scanning, enumeration, and vulnerability detection.
+
+## 🛠️ Tools Covered
+- ARP
+- Ip/ifconfig
+- Hping3
+- Ping
+- TCPDump
+- Nmap/Zenmap
+- Wireshark
+
+## 📸 Lab Screenshots & Results
+
+### Nmap Scan Example
+Used to identify open ports and services on target host.
+
+![Nmap Scan](../screenshots/nmap-scan.png)
+
+### Wireshark Packet Capture
+Captured traffic during simulated attack scenario.
+
+![Wireshark Capture](../screenshots/wireshark-capture.png)
+
+## 🧠 Observations
+- Nmap revealed SSH and HTTP services on target
+- Wireshark showed suspicious ICMP traffic
+- Nessus flagged outdated Apache version
+
+## 📚 Lessons Learned
+- Importance of layered scanning tools
+- Real-time packet analysis is critical for threat detection
+
+## 📸 Lab Screenshots & Results
+
+### Nmap Scan Example
+Used to identify open ports and services on target host.
+
+![Nmap Scan](../screenshots/nmap-scan.png)
+
+### Wireshark Packet Capture
+Captured traffic during simulated attack scenario.
+
+![Wireshark Capture](../screenshots/wireshark-capture.png)
+
+## 🧠 Observations
+- Nmap revealed SSH and HTTP services on target
+- Wireshark showed suspicious ICMP traffic
+- Nessus flagged outdated Apache version
+
+## 📚 Lessons Learned
+- Importance of layered scanning tools
+- Real-time packet analysis is critical for threat detection
