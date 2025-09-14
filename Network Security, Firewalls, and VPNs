@@ -14,7 +14,7 @@ This section documents the tools used to assess network security posture, includ
 
 ## 📸 Lab Screenshots & Results
 -Topology
-
+https://github.com/Rgordon4/Reginald-Cybersecurity-Portfolio/blob/main/Screenshot%202025-09-14%20at%2011-38-19%20Lab%20-%20Jones%20%26%20Bartlett.png
 ### Nmap Scan Example
 Used to identify open ports and services on target host.
 
